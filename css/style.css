@@ -1,0 +1,219 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons i{
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+   /* font-size: 20px; */
+}
+.nav h3{
+    color: teal;
+} 
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 5px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: teal;
+     padding-left: 10px ;
+     padding-right: 10px ;
+}
+.cont1{
+    background: linear-gradient(rgba(0, 128, 128, 0.616),rgba(0, 128, 128, 0.507)),url(/images/arch2.jpg );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all{
+position: absolute;
+color: white;
+}
+.all h2{
+    font-size: 50px;
+    text-align: center;
+}
+.all p{
+    font-size:12px ;
+    text-align: center;
+}
+.btn button{
+  padding-right:20px ;
+  padding-left:20px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+  background-color: orange;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  margin-top: 10px;
+}
+.btn{
+    text-align: center;
+}
+.cont2{
+  text-align: center;
+  color: teal;
+}
+.para p{
+    font-size: 30px;
+}
+.image{
+   display: flex;
+   justify-content: center;
+   color: white;
+}
+.each1{
+    background: linear-gradient(rgba(0, 128, 128, 0.616),rgba(0, 128, 128, 0.507)),url(/images/arch3.jpg );
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 5px;
+
+}
+.each2{
+    background: linear-gradient(rgba(0, 128, 128, 0.616),rgba(0, 128, 128, 0.507)),url(/images/arch4.jpg );
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 5px;
+
+}
+.each3{
+    background: linear-gradient(rgba(0, 128, 128, 0.616),rgba(0, 128, 128, 0.507)),url(/images/arch5.jpg );
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 5px;
+}
+.cont3{
+    text-align: center;
+    color: teal;
+    margin-top: 50px;
+    background-color: rgba(220, 220, 220, 0.507);
+}
+.cont3 img{
+    height: 200px;
+    width: 250px;
+    margin: 7px;
+}
+.cont3 .para{
+    padding-top: 20px;
+}
+.cont4{
+    text-align: center;
+    color: teal;
+    margin-top: 50px;
+}
+.cont4 img{
+    width: 200px;
+    height: 200px;
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+.linda{
+    position: relative;
+    bottom: 19px;
+}
+
+.linda span{
+    background-color: whitesmoke;
+}
+.but .btn1{
+    background-color: orange;
+    color: orange;
+    border: none;
+}
+.but .btn2{
+    background-color:rgba(255, 127, 80, 0.575);
+    color:rgba(255, 127, 80, 0.575);
+    border: none;
+}
+.but .btn3{
+    background-color:rgba(255, 127, 80, 0.575);
+    color:rgba(255, 127, 80, 0.575);
+    border: none;
+}
+.cont5{
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(0, 128, 128, 0.616),rgba(0, 128, 128, 0.507)),url(/images/arch4.jpg );
+    height: 300px;
+     background-size:100% 100% ;
+     background-attachment: fixed;
+}
+.cont5 h2{
+    padding-top: 30px;
+}
+.cont5 i{
+    font-size: 25px;
+    padding: 10px;
+}
+.cont5 .font{
+    padding-top: 30px;
+}
+@media(max-width:768px){
+   .cont1{
+    width: 100%;
+    height: 400px;
+   } 
+   .cont1 h2{
+    font-size: 35px;
+   }
+   .cont2 .image{
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+   }
+   .cont2 .each1{
+    width:150px;
+    height: 150px;
+    font-size: 20px;
+   }
+   .cont2 .each2{
+    width:150px;
+    height: 150px;
+    font-size: 20px;
+   }
+   .cont2 .each3{
+    width:150px;
+    height: 150px;
+    font-size: 20px;
+   }
+   .cont3 .image{
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+   }
+   .nav ul li a{
+    padding-left: 7px;
+    padding-right: 7px;
+   }
+   /* .cont3 .image img{
+    width: 80%;
+   } */
+}
